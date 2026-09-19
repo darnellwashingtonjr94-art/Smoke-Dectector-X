@@ -1,0 +1,20 @@
+# Smoke-Detector-X Configuration File
+
+pins:
+  mq2: 17       # BCM GPIO pin for MQ-2 smoke sensor
+  siren: 27     # BCM GPIO pin for Siren relay
+
+camera:
+  source: 0     # /dev/video0 (USB Camera)
+  width: 1920
+  height: 1080
+
+ai:
+  model_path: "../models/yolov8_fire_custom.pt"
+  confidence_threshold: 0.65
+
+network:
+  alert_endpoint: "http://192.168.1.100:8080/api/alerts" # Your local server/home assistant endpoint
+
+system:
+  log_level: "INFO"
