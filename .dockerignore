@@ -1,0 +1,11 @@
+.git
+.github
+__pycache__/
+*.pyc
+tests/
+data/
+runs/
+scripts/train_yolo.py
+scripts/calibrate_camera.py
+README.md
+# Do not ignore models/ as they are needed for inference
