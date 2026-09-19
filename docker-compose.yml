@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  smoke-detector-x:
+    build: .
+    image: ghcr.io/yourusername/smoke-detector-x:latest
+    container_name: smoke-detector-x
+    restart: always
+    privileged: true # Required for GPIO and hardware acceleration access
+    environment:
+      - TZ=America/Los_Angeles
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./config.yaml:/app/config.yaml:ro
+      - ./models:/app/models:ro
+      - smoke-detector-logs:/var/log/
+    devices:
+      - "/dev/video0:/dev/video0" # 360 Camera
+      - "/dev/gpiomem:/dev/gpiomem" # Raspberry Pi GPIO access
+    network_mode: "host" # Allows direct access to local network for mDNS/MQTT
+    healthcheck:
+      test: ["CMD", "python", "scripts/healthcheck.py"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  smoke-detector-logs:
