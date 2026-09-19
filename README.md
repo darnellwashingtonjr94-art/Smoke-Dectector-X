@@ -5,7 +5,7 @@
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-Edge%20Hardware-C51A4A.svg?logo=raspberry-pi&logoColor=white)
 ![YOLOv8](https://img.shields.io/badge/AI-YOLOv8-FF7F00.svg?logo=ultralytics&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/Vision-OpenCV-5C3EE8.svg?logo=opencv&logoColor=white)
-![GitHub Actions](https://img.shields.io/github/actions/workflow/status/yourusername/smoke-detector-x/docker-publish.yml?logo=github&label=CI%2FCD%20Pipeline)
+![GitHub Actions](https://img.shields.io/github/actions/workflow/status/darnellwashingtonjr94-art/smoke-detector-x/docker-publish.yml?logo=github&label=CI%2FCD%20Pipeline)
 
 Edge-AI smart home safety device combining traditional smoke detection with 360-degree YOLOv8 visual fire verification[span_0](start_span)[span_0](end_span).
 
