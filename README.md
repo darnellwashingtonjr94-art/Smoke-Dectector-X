@@ -3,33 +3,33 @@
 ## 💻 Tech Stack
 
 **Core Programming Languages, Core Systems**
-*   **Python 3.x**: Primary application logic and inference scripts[span_0](start_span)[span_0](end_span).
-*   **Linux / Systemd**: Background service management and deployment execution[span_1](start_span)[span_1](end_span)[span_2](start_span)[span_2](end_span).
-*   **Bash**: Shell scripting for installation (`install.sh`) and deployment (`docker_publish.sh`)[span_3](start_span)[span_3](end_span).
+*   ![Python](https://img.shields.io/badge/Python_3.x-3776AB?style=flat&logo=python&logoColor=white) Primary application logic and inference scripts[span_0](start_span)[span_0](end_span).
+*   ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) ![Systemd](https://img.shields.io/badge/Systemd-E34F26?style=flat) Background service management and deployment execution[span_1](start_span)[span_1](end_span)[span_2](start_span)[span_2](end_span).
+*   ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white) Shell scripting for installation (`install.sh`) and deployment (`docker_publish.sh`)[span_3](start_span)[span_3](end_span).
 
 **Platform Support & Hardware Architecture**
-*   **Raspberry Pi & NVIDIA Jetson**: Target edge hardware platforms[span_4](start_span)[span_4](end_span).
-*   **ARM64 (`aarch64`) & AMD64**: Supported multi-architecture builds[span_5](start_span)[span_5](end_span).
-*   **Hardware Sensors**: MQ-2 Gas/Smoke Sensor, 5V Siren Relay, and Dual-Fisheye 360 USB Camera[span_6](start_span)[span_6](end_span)[span_7](start_span)[span_7](end_span).
-*   **Raspberry Pi GPIO**: Direct hardware interfacing for triggers and alerts[span_8](start_span)[span_8](end_span).
+*   ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=flat&logo=raspberry-pi&logoColor=white) ![NVIDIA Jetson](https://img.shields.io/badge/NVIDIA_Jetson-76B900?style=flat&logo=nvidia&logoColor=white) Target edge hardware platforms[span_4](start_span)[span_4](end_span).
+*   ![ARM64](https://img.shields.io/badge/ARM64-000000?style=flat&logo=arm&logoColor=white) ![AMD64](https://img.shields.io/badge/AMD64-000000?style=flat&logo=amd&logoColor=white) Supported multi-architecture builds[span_5](start_span)[span_5](end_span).
+*   ![MQ-2 Sensor](https://img.shields.io/badge/Sensor-MQ--2-lightgray) ![5V Relay](https://img.shields.io/badge/Relay-5V-lightgray) ![360 Camera](https://img.shields.io/badge/Camera-Dual--Fisheye_360-lightgray) Hardware components for triggers and vision[span_6](start_span)[span_6](end_span)[span_7](start_span)[span_7](end_span).
+*   ![GPIO](https://img.shields.io/badge/Raspberry_Pi-GPIO-C51A4A?style=flat&logo=raspberry-pi&logoColor=white) Direct hardware interfacing for triggers and alerts[span_8](start_span)[span_8](end_span).
 
 **Low-Level Infrastructure & Performance**
-*   **TensorRT**: Used for generating high-speed edge inference engines with FP16 precision[span_9](start_span)[span_9](end_span).
-*   **OpenCV**: Hardware-accelerated video capture and image dewarping[span_10](start_span)[span_10](end_span).
-*   **MQTT & WebHooks**: Lightweight local network payload dispatching[span_11](start_span)[span_11](end_span).
+*   ![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat&logo=nvidia&logoColor=white) Used for generating high-speed edge inference engines with FP16 precision[span_9](start_span)[span_9](end_span).
+*   ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) Hardware-accelerated video capture and image dewarping[span_10](start_span)[span_10](end_span).
+*   ![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat&logo=mqtt&logoColor=white) ![Webhooks](https://img.shields.io/badge/Webhooks-0073BB?style=flat&logo=webhooks&logoColor=white) Lightweight local network payload dispatching[span_11](start_span)[span_11](end_span).
 
 **Cybersecurity & Offensive Auditing**
 *   *N/A - This project is designed as a privacy-first, 100% local edge-AI device without external attack surfaces[span_12](start_span)[span_12](end_span).*
 
 **DevOps & Build Tools**
-*   **Docker & Docker Compose**: Containerization and local network access mapping[span_13](start_span)[span_13](end_span).
-*   **GitHub Actions**: CI/CD pipelines for automated Python package and Docker image publishing (`docker-publish.yml`, `python-publish.yml`)[span_14](start_span)[span_14](end_span).
-*   **Makefile**: Streamlined build, test, run, and clean commands[span_15](start_span)[span_15](end_span).
-*   **Unittest / Mock**: Automated testing for hardware, network, and inference modules[span_16](start_span)[span_16](end_span).
+*   ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=flat&logo=docker&logoColor=white) Containerization and local network access mapping[span_13](start_span)[span_13](end_span).
+*   ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white) CI/CD pipelines for automated Python package and Docker image publishing (`docker-publish.yml`, `python-publish.yml`)[span_14](start_span)[span_14](end_span).
+*   ![Makefile](https://img.shields.io/badge/Makefile-000000?style=flat&logo=gnu&logoColor=white) Streamlined build, test, run, and clean commands[span_15](start_span)[span_15](end_span).
+*   ![Unittest](https://img.shields.io/badge/Python-Unittest-3776AB?style=flat&logo=python&logoColor=white) ![Mock](https://img.shields.io/badge/Python-Mock-3776AB?style=flat&logo=python&logoColor=white) Automated testing for hardware, network, and inference modules[span_16](start_span)[span_16](end_span).
 
 **Artificial Intelligence & Quantum**
-*   **YOLOv8 (Ultralytics)**: Custom-trained object detection model for visual fire verification[span_17](start_span)[span_17](end_span)[span_18](start_span)[span_18](end_span).
-*   **Computer Vision**: Real-time 360-degree frame processing and confidence thresholding[span_19](start_span)[span_19](end_span).
+*   ![YOLOv8](https://img.shields.io/badge/YOLOv8-FF7F00?style=flat&logo=ultralytics&logoColor=white) Custom-trained object detection model for visual fire verification[span_17](start_span)[span_17](end_span)[span_18](start_span)[span_18](end_span).
+*   ![Computer Vision](https://img.shields.io/badge/AI-Computer_Vision-8A2BE2?style=flat) Real-time 360-degree frame processing and confidence thresholding[span_19](start_span)[span_19](end_span).
 
 **Cloud Providers**
 *   *N/A - Operates entirely on the edge. Dispatches alerts directly to local network endpoints (e.g., local Home Assistant) without relying on cloud providers[span_20](start_span)[span_20](end_span).*
