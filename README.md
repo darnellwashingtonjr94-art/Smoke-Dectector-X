@@ -9,7 +9,7 @@
 
 Edge-AI smart home safety device combining traditional smoke detection with 360-degree YOLOv8 visual fire verification[span_0](start_span)[span_0](end_span).
 
-## 🧒 In 5th Grade English...
+## BREAKING IT DOWN FOR THE PEOPLE IN THE BACK!!! LOL 
 Imagine a regular smoke detector that beeps when you burn toast. That's annoying, right? This project fixes that! It is a super smart smoke detector with "eyes" (a 360-degree camera) and a "brain" (AI). 
 
 When it smells smoke, it doesn't just beep right away. Instead, it quickly opens its eyes, looks around the whole room, and asks its brain, *"Do I see actual fire?"* 
