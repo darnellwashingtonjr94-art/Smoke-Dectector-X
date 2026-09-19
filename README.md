@@ -1,47 +1,40 @@
-# “Smoke-Detector-X”
+# Smoke-Detector-X
 
 ## 💻 Tech Stack
 
 **Core Programming Languages, Core Systems**
-*   ![Python](https://img.shields.io/badge/Python_3.x-3776AB?style=flat&logo=python&logoColor=white) Primary application logic and inference scripts[span_0](start_span)[span_0](end_span).
-*   ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) ![Systemd](https://img.shields.io/badge/Systemd-E34F26?style=flat) Background service management and deployment execution[span_1](start_span)[span_1](end_span)[span_2](start_span)[span_2](end_span).
-*   ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white) Shell scripting for installation (`install.sh`) and deployment (`docker_publish.sh`)[span_3](start_span)[span_3](end_span).
+*   ![Python](https://img.shields.io/badge/Python_3.x-3776AB?style=flat&logo=python&logoColor=white)
+*
+*   ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) ![Systemd](https://img.shields.io/badge/Systemd-E34F26?style=flat)
+*   
+*   ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white) 
 
 **Platform Support & Hardware Architecture**
-*   ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=flat&logo=raspberry-pi&logoColor=white) ![NVIDIA Jetson](https://img.shields.io/badge/NVIDIA_Jetson-76B900?style=flat&logo=nvidia&logoColor=white) Target edge hardware platforms[span_4](start_span)[span_4](end_span).
-*   ![ARM64](https://img.shields.io/badge/ARM64-000000?style=flat&logo=arm&logoColor=white) ![AMD64](https://img.shields.io/badge/AMD64-000000?style=flat&logo=amd&logoColor=white) Supported multi-architecture builds[span_5](start_span)[span_5](end_span).
-*   ![MQ-2 Sensor](https://img.shields.io/badge/Sensor-MQ--2-lightgray) ![5V Relay](https://img.shields.io/badge/Relay-5V-lightgray) ![360 Camera](https://img.shields.io/badge/Camera-Dual--Fisheye_360-lightgray) Hardware components for triggers and vision[span_6](start_span)[span_6](end_span)[span_7](start_span)[span_7](end_span).
-*   ![GPIO](https://img.shields.io/badge/Raspberry_Pi-GPIO-C51A4A?style=flat&logo=raspberry-pi&logoColor=white) Direct hardware interfacing for triggers and alerts[span_8](start_span)[span_8](end_span).
+*   ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=flat&logo=raspberry-pi&logoColor=white)
+*
+*   ![NVIDIA Jetson](https://img.shields.io/badge/NVIDIA_Jetson-76B900?style=flat&logo=nvidia&logoColor=white) 
+*   ![ARM64](https://img.shields.io/badge/ARM64-000000?style=flat&logo=arm&logoColor=white) ![AMD64](https://img.shields.io/badge/AMD64-000000?style=flat&logo=amd&logoColor=white) 
+*   ![MQ-2 Sensor](https://img.shields.io/badge/Sensor-MQ--2-lightgray) ![5V Relay](https://img.shields.io/badge/Relay-5V-lightgray) ![360 Camera](https://img.shields.io/badge/Camera-Dual--Fisheye_360-lightgray) 
+*   ![GPIO](https://img.shields.io/badge/Raspberry_Pi-GPIO-C51A4A?style=flat&logo=raspberry-pi&logoColor=white) 
 
 **Low-Level Infrastructure & Performance**
-*   ![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat&logo=nvidia&logoColor=white) Used for generating high-speed edge inference engines with FP16 precision[span_9](start_span)[span_9](end_span).
-*   ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) Hardware-accelerated video capture and image dewarping[span_10](start_span)[span_10](end_span).
-*   ![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat&logo=mqtt&logoColor=white) ![Webhooks](https://img.shields.io/badge/Webhooks-0073BB?style=flat&logo=webhooks&logoColor=white) Lightweight local network payload dispatching[span_11](start_span)[span_11](end_span).
-
-**Cybersecurity & Offensive Auditing**
-*   *N/A - This project is designed as a privacy-first, 100% local edge-AI device without external attack surfaces[span_12](start_span)[span_12](end_span).*
+*   ![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat&logo=nvidia&logoColor=white) 
+*   ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white) 
+*   ![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat&logo=mqtt&logoColor=white) ![Webhooks](https://img.shields.io/badge/Webhooks-0073BB?style=flat&logo=webhooks&logoColor=white) 
 
 **DevOps & Build Tools**
-*   ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=flat&logo=docker&logoColor=white) Containerization and local network access mapping[span_13](start_span)[span_13](end_span).
-*   ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white) CI/CD pipelines for automated Python package and Docker image publishing (`docker-publish.yml`, `python-publish.yml`)[span_14](start_span)[span_14](end_span).
-*   ![Makefile](https://img.shields.io/badge/Makefile-000000?style=flat&logo=gnu&logoColor=white) Streamlined build, test, run, and clean commands[span_15](start_span)[span_15](end_span).
-*   ![Unittest](https://img.shields.io/badge/Python-Unittest-3776AB?style=flat&logo=python&logoColor=white) ![Mock](https://img.shields.io/badge/Python-Mock-3776AB?style=flat&logo=python&logoColor=white) Automated testing for hardware, network, and inference modules[span_16](start_span)[span_16](end_span).
+*   ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=flat&logo=docker&logoColor=white) 
+*   ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white) 
+
+*   ![Makefile](https://img.shields.io/badge/Makefile-000000?style=flat&logo=gnu&logoColor=white) 
+*   ![Unittest](https://img.shields.io/badge/Python-Unittest-3776AB?style=flat&logo=python&logoColor=white)
+*    ![Mock](https://img.shields.io/badge/Python-Mock-3776AB?style=flat&logo=python&logoColor=white) 
 
 **Artificial Intelligence & Quantum**
-*   ![YOLOv8](https://img.shields.io/badge/YOLOv8-FF7F00?style=flat&logo=ultralytics&logoColor=white) Custom-trained object detection model for visual fire verification[span_17](start_span)[span_17](end_span)[span_18](start_span)[span_18](end_span).
-*   ![Computer Vision](https://img.shields.io/badge/AI-Computer_Vision-8A2BE2?style=flat) Real-time 360-degree frame processing and confidence thresholding[span_19](start_span)[span_19](end_span).
+*   ![YOLOv8](https://img.shields.io/badge/YOLOv8-FF7F00?style=flat&logo=ultralytics&logoColor=white) 
+*   ![Computer Vision](https://img.shields.io/badge/AI-Computer_Vision-8A2BE2?style=flat) 
 
-**Cloud Providers**
-*   *N/A - Operates entirely on the edge. Dispatches alerts directly to local network endpoints (e.g., local Home Assistant) without relying on cloud providers[span_20](start_span)[span_20](end_span).*
-
-![Python](https://img.shields.io/badge/Python-3.x-blue.svg?logo=python&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Supported-2496ED.svg?logo=docker&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-Edge%20Hardware-C51A4A.svg?logo=raspberry-pi&logoColor=white)
-![YOLOv8](https://img.shields.io/badge/AI-YOLOv8-FF7F00.svg?logo=ultralytics&logoColor=white)
-![OpenCV](https://img.shields.io/badge/Vision-OpenCV-5C3EE8.svg?logo=opencv&logoColor=white)
-![GitHub Actions](https://img.shields.io/github/actions/workflow/status/darnellwashingtonjr94-art/smoke-detector-x/docker-publish.yml?logo=github&label=CI%2FCD%20Pipeline)
-
-Edge-AI smart home safety device combining traditional smoke detection with 360-degree YOLOv8 visual fire verification[span_0](start_span)[span_0](end_span).
+Smoke-Detector-X is a privacy-first edge-AI safety device that upgrades traditional smoke alarms. Pairing an MQ-2 sensor with a 360-degree camera and onboard YOLOv8 machine learning, it visually verifies fire emergencies in real-time. It actively eliminates false alarms by locally confirming flames before triggering its siren and network alerts.
 
 ## BREAKING IT DOWN FOR THE PEOPLE IN THE BACK!!! LOL 
 Imagine a regular smoke detector that beeps when you burn toast. That's annoying, right? This project fixes that! It is a super smart smoke detector with "eyes" (a 360-degree camera) and a "brain" (AI). 
