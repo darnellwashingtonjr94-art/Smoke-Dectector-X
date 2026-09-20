@@ -1,17 +1,19 @@
+
+
 # Smoke-Detector-X
 
 ## 💻 Tech Stack
 
 **Core Programming Languages, Core Systems**
 *   ![Python](https://img.shields.io/badge/Python_3.x-3776AB?style=flat&logo=python&logoColor=white)
-*
+
 *   ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) ![Systemd](https://img.shields.io/badge/Systemd-E34F26?style=flat)
-*   
+   
 *   ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white) 
 
 **Platform Support & Hardware Architecture**
 *   ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=flat&logo=raspberry-pi&logoColor=white)
-*
+
 *   ![NVIDIA Jetson](https://img.shields.io/badge/NVIDIA_Jetson-76B900?style=flat&logo=nvidia&logoColor=white) 
 *   ![ARM64](https://img.shields.io/badge/ARM64-000000?style=flat&logo=arm&logoColor=white) ![AMD64](https://img.shields.io/badge/AMD64-000000?style=flat&logo=amd&logoColor=white) 
 *   ![MQ-2 Sensor](https://img.shields.io/badge/Sensor-MQ--2-lightgray) ![5V Relay](https://img.shields.io/badge/Relay-5V-lightgray) ![360 Camera](https://img.shields.io/badge/Camera-Dual--Fisheye_360-lightgray) 
