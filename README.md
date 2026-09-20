@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="IMG_4456.jpeg" alt="Smoke-Detector-X Logo" width="600">
+</p>
 
 # Smoke-Detector-X
 
